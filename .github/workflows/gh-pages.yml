@@ -3,7 +3,7 @@ name: Update devltest.github.io
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "yml/**.yml"
 
@@ -26,7 +26,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: devltest/devltest.github.io
-          publish_branch: master
+          publish_branch: main
           publish_dir: yml
           destination_dir: _lolbas
           enable_jekyll: true
