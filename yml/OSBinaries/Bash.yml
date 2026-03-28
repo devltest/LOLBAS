@@ -4,7 +4,7 @@ Description: File used by Windows subsystem for Linux
 Author: 'Oddvar Moe'
 Created: 2018-05-25
 Commands:
-  - Command: bash.exe -c calc.exe
+  - Command: bash.exe -c calc2.exe
     Description: Executes calc.exe from bash.exe
     Usecase: Performs execution of specified file, can be used as a defensive evasion.
     Category: Execute
